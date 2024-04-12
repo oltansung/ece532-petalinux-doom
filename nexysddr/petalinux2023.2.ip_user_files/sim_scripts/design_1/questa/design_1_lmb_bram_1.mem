@@ -1,0 +1,16 @@
+// Mem file initialization records.
+//
+// SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+// Vivado v2023.2 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+// Created on Sunday February 04, 2024 - 01:39:56 pm, from:
+//
+//     Map file     - a:\petalinux2023.2\petalinux2023.2.gen\sources_1\bd\design_1\design_1.bmm
+//     Data file(s) - a:/petalinux2023.2/petalinux2023.2.gen/sources_1/bd/design_1/ip/design_1_microblaze_0_1/data/mb_bootloop_le.elf
+//
+// Address space 'design_1_i_microblaze_0.design_1_i_microblaze_0_local_memory_lmb_bram_128K_4_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.
+
+@00000000
+    B8000000
