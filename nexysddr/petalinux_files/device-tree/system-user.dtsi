@@ -1,0 +1,40 @@
+/include/ "system-conf.dtsi"
+/ {
+};
+&axi_quad_spi_1 {
+
+  #address-cells = <1>;
+
+  #size-cells = <0>;
+
+  mmc-slot@0 {
+
+    compatible = "mmc-spi-slot";
+
+    reg = <0>;
+
+    voltage-ranges = <3300 3300>;
+
+    spi-max-frequency = <50000000>;
+
+  };
+
+};
+
+ //&microblaze_0_axi_intc {
+//ps2-gpio@0 {
+//	compatible = "ps2-gpio";
+//	data-gpios = <&axi_gpio_0 0 0>;
+//	clk-gpios = <&axi_gpio_0 1 0>;
+//	write_enable;
+//};
+//gpio-leds@0 {
+//    compatible = "gpio-leds";
+//    led-ds23@0 {
+//        label = "led-ds23";
+//        gpios = <&axi_gpio_1 2 0>;
+//        default-state = "on";
+//        linux,default-trigger = "heartbeat";
+//    };
+//};
+//};
